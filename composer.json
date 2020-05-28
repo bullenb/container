@@ -1,5 +1,5 @@
 {
-    "name": "league/container",
+    "name": "garethhudson07/container",
     "description": "A fast and intuitive dependency injection container.",
     "keywords": [
         "league",
@@ -17,6 +17,11 @@
             "name": "Phil Bennett",
             "email": "philipobenito@gmail.com",
             "homepage": "http://www.philipobenito.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Gareth Hudson",
+            "email": "garethhudson07@gmail.com",
             "role": "Developer"
         }
     ],
