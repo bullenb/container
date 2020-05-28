@@ -117,7 +117,9 @@ class Inflector implements ArgumentResolverInterface, InflectorInterface
         }
 
         if ($this->callback !== null) {
-            call_user_func($this->callback, $object);
+            $object = call_user_func($this->callback, $object);
         }
+
+        return $object;
     }
 }
